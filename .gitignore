@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Dataset (downloaded/generated locally, not versioned)
+ArtBench-10/
+data/
+
+# Generated model outputs: samples, checkpoints, study databases
+src/results/
+*.pt
+*.pth
+*.ckpt
+*.db
+
+# LaTeX build artifacts
+docs/report/*.aux
+docs/report/*.log
+docs/report/*.fls
+docs/report/*.fdb_latexmk
+docs/report/*.synctex.gz
+docs/report/*.out
+docs/report/*.toc
+docs/report/*.bbl
+docs/report/*.blg
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
