@@ -162,4 +162,8 @@ failed to separate. See `docs/report/main.pdf` for the full analysis.
 
 ## Authors
 
-Miguel Castela and M. Martins. Generative AI course, Project 1.
+- Miguel Castela
+- Miguel Martins
+
+DEI, Universidade de Coimbra.
+
