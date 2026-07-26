@@ -25,6 +25,13 @@ latent-space interpolation, and t-SNE projections).
 │   ├── statement/        Assignment PDFs
 │   ├── report/           LaTeX report (main.tex) and compiled main.pdf
 │   └── todo.txt          Working task list
+├── labs/                 Weekly course lab notebooks (see "Course labs")
+│   ├── 1-discriminative-vs-generative/
+│   ├── 2-lsystems-and-ifs/
+│   ├── 3-autoencoders-and-vaes/
+│   ├── 4-gans/
+│   ├── 5-diffusion-and-latent-diffusion/
+│   └── 6-evaluation-and-exploration/
 ├── notebooks/
 │   └── ArtBench10_Student_Start_Pack.ipynb   Provided starter notebook
 ├── scripts/
@@ -159,6 +166,27 @@ images per model). Lower FID is better.
 The unconditional diffusion model achieved the best fidelity, while the
 conditional DDIM variant preserved class boundaries that the conditional GAN
 failed to separate. See `docs/report/main.pdf` for the full analysis.
+
+## Course labs
+
+`labs/` holds the weekly lab notebooks worked through during the Generative AI
+course. They are the foundational exercises behind this project — the same VAE,
+GAN, diffusion, and evaluation machinery, on smaller datasets (MNIST/CIFAR-10)
+and in self-contained notebooks:
+
+| Lab | Topic |
+|-----|-------|
+| 1 | Discriminative vs generative models |
+| 2 | L-systems and iterated function systems |
+| 3 | Autoencoders and variational autoencoders |
+| 4 | Vanilla GANs (MNIST and CIFAR-10) |
+| 5 | Diffusion and latent diffusion models |
+| 6 | Evaluation and exploration of generative ML spaces |
+
+Each lab folder is self-contained, with its own `README.md` (setup notes) and
+`requirements.txt`. Open the notebook and run it from inside its folder.
+Downloaded datasets and trained checkpoints (`data/`, `*.pt`) are gitignored and
+regenerate on run.
 
 ## Authors
 
