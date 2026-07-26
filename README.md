@@ -170,7 +170,7 @@ failed to separate. See `docs/report/main.pdf` for the full analysis.
 ## Course labs
 
 `labs/` holds the weekly lab notebooks worked through during the Generative AI
-course. They are the foundational exercises behind this project — the same VAE,
+course. They are the foundational exercises behind this project: the same VAE,
 GAN, diffusion, and evaluation machinery, on smaller datasets (MNIST/CIFAR-10)
 and in self-contained notebooks:
 
