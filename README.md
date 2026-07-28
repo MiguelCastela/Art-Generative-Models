@@ -14,6 +14,15 @@ Models are assessed both quantitatively (FID and KID against a fixed Inception
 feature extractor) and qualitatively (visual inspection of per-style samples,
 latent-space interpolation, and t-SNE projections).
 
+| Denoising, step by step | Generated samples |
+| ----------------------- | ----------------- |
+| ![Three samples denoised from pure noise to a finished 32x32 artwork](docs/images/diffusion_progression.png) | ![Grid of generated 32x32 ArtBench samples](docs/images/diffusion_samples.png) |
+
+Left: three reverse-diffusion trajectories, from pure Gaussian noise on the far left
+to a finished painting on the right. Right: a batch of generated samples. Both are
+nearest-neighbour upscales of the raw grids in `scripts/`, so the visible blockiness
+is the models' real 32x32 output, not resampling.
+
 ## Repository structure
 
 ```
